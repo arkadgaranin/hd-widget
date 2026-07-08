@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Виджет HappyDesk</title>
+  </head>
+  <body>
+    <!-- любой контент страницы -->
+
+    <script src="https://16widget.preprod.dev.happydesk.ru/widget.js" charset="utf-8"></script>
+    <script>
+      Happydesk.initChat(
+        {
+          clientId: 4537,
+          server: 'https://16widget.preprod.dev.happydesk.ru',
+          host: 'kahofi5790.preprod.dev.happydesk.ru'
+        },
+        {
+          page_url: window.location.href,
+          user_agent: window.navigator.userAgent,
+          language: 'ru'
+        }
+      );
+    </script>
+  </body>
+</html>
